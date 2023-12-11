@@ -19,7 +19,6 @@ def extractNumbers(s):
     numList = re.findall("(one|two|three|four|five|six|seven|eight|nine|[1-9])", s, re.IGNORECASE)
     
     if len(numList) == 0:
-        print(f"Nothing found in {s}")
         return 0
     
     if len(numList) == 1:
